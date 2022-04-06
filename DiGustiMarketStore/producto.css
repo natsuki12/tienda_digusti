@@ -1,0 +1,65 @@
+.pro{
+	width: 30%;
+	float: left;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.pro img{
+	width: 150px;
+	height: 150px;
+}
+
+.descripcion{
+	border-top: 2px solid grey;
+	margin-top: 2px;
+	font-size: 15px;
+	color: rgba(48,48,47,1);
+	width: 80%;
+	margin: auto;
+}
+
+.precio{
+	color: red;
+	font-size: 40px;
+	margin: 0;
+	margin-top: -10px;
+}
+
+span{
+	font-size: 20px;
+}
+
+.descripcion input{
+	display: inline;
+}
+
+.cantidad{
+	width: 40px;
+	padding: 3px;
+	font-size: 15px;
+	font-weight: bold;
+	color: rgba(48,48,47,0.8);
+	background: rgba(48,48,47,0.1);
+	border: 1px solid rgba(48,48,47,0.5);
+	border-radius: 5px;
+	text-align: center;
+}
+
+.car{
+	background: rgba(255,145,4,0.8);
+	border: 1px solid rgba(48,48,47,0.5);
+	border-radius: 5px;
+	color: rgba(255,255,255,1);
+	text-shadow: black 1px 0px 1px;
+	font-size: 17px;
+	letter-spacing: 1px;
+	margin-left: 10px;
+}
+
+.error{
+	text-align: center;
+	font-size: 50px;
+	margin: 60px 0px;
+}

@@ -1,0 +1,65 @@
+body{text-align: center;}
+
+.factura{
+	width: 42%;
+	margin: auto;
+	text-align: center;
+	border: 2px solid black;
+	box-shadow: black 0px 0px 10px 0px;
+}
+
+.print{
+	font-size: 1em;
+	font-family: courgette;
+	margin-bottom: 20px;
+}
+
+img{
+	width: 100%;
+}
+
+.informacion{
+	margin-bottom: 10px;
+}
+
+.producto{
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+.izquierda{
+	padding: 10px 0px;
+	text-align: left;
+	width: 80%;
+}
+
+.derecha{
+	text-align: right;
+	width: 20%;
+}
+
+th{
+	text-decoration: underline;
+	text-align: center;
+	font-family: rockwell;
+}
+
+.precio{
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+span{
+	color: red;
+	font-size: 0.8em;
+	border-bottom: 1px solid black;
+}
+
+footer{
+	font-size: 1em;
+}

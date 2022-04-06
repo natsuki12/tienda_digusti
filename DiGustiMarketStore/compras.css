@@ -1,0 +1,39 @@
+/*Cambios sobre la tabla*/
+table{
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+/*Espacio de rellenos en las celdas de cada columba*/
+td, th{
+	padding: 10px 40px;
+}
+
+/*Estilos de la Cabecera*/
+th{
+	background: rgba(48,48,47,1);
+	font-family: rockwell;
+	color: #fff;
+}
+
+/*Estilos en las celdas de las columnas*/
+td{
+	text-align: center;
+	border-bottom: 2px solid #111;
+	color: #333;
+	font-size: 18px;
+}
+
+.factura{
+	margin-top: 80px;
+}
+
+.factura p{
+	font-size: 20px;
+	font-family: lobster;
+}
+
+.id_f{ cursor: pointer; }

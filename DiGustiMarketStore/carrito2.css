@@ -1,0 +1,153 @@
+/*SECCION DEL CSS DE COMO SE MUESTRA CADA PRODUCTO EN EL CARRITO*/
+/*.producto{
+	text-align: justify;
+	overflow: none;
+}*/
+
+.producto img{
+	width: 20%;
+	float: left;
+}
+
+.block{
+	float: left;
+	overflow: none;
+}
+
+.cantidad{
+	background: rgba(48,48,47,0.1);
+	border: 1px solid rgba(48,48,47,0.5);
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.precio{
+	color: red;
+	font-size: 14px;
+	margin: auto;
+	margin-left: -15px;
+}
+
+.descripcion{
+	color: rgba(48,48,47,0.8);
+	padding: auto;
+	width: 80%;
+}
+
+.eliminar{
+	border: 1px solid rgba(48,48,47,0.5);
+	border-radius: 5px;
+	margin: auto;
+	font-weight: bold;
+	color: rgba(48,48,47,0.8);
+	background: white;
+	cursor: pointer;
+}
+/*FIN SECCION DEL CSS DE COMO SE MUESTRA CADA PRODUCTO DEL CARRITO*/
+
+/*SECCION DEL CSS DE LOS BOTONES DE LA PARTE INFERIOR DEL CARRITO*/
+.compra{
+	margin-left: 1%; margin-right: 1%;
+	font-size: 20px;
+	background: rgba(255,145,4,0.8);
+	border: 1px solid rgba(48,48,47,0.5);
+	border-radius: 5px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.cancelar{
+	width: 85%;
+	text-align: center;
+	display: inline;
+	margin-bottom: 20px;
+}
+/*FIN SECCION DEL CSS DE LOS BOTONES DE LA PARTE INFERIOR DEL CARRITO*/
+
+/*CSS DEL RECUEDRO ABSOULTE QUE SE HABILITA EN EL PROCESO PARA CANCELAR EL PRODUCTOA*/
+.ProPagar{
+	position: fixed;
+	z-index: 20;
+	width: 30%;
+	top: 20%;
+	left: 35%;
+	border-radius: 10px;
+	padding: 20px;
+	background: white;
+	border: 2px solid rgba(48,48,47,0.8);
+}
+
+.formula{
+	text-align: center;
+	margin-bottom: 20px;
+	color: rgb(48,48,47);
+}
+
+.caja-1{
+	width: 90%;
+	margin-top: 20px;
+	font-size: 15px;
+	padding: 10px;
+}
+
+.radiob{
+	display: inline;
+	margin-top: 20px;
+	font-size: 13px;
+	font-family: courgette;
+	display: block;
+}
+
+.aceptar{
+	margin-top: 20px;
+	width: 30%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 15px;
+	font-family: courgette;
+}
+
+h3{
+	font-family: lobster;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+	margin-bottom: 1px;
+}
+/*FIN CSS DEL RECUADRO ABSOULTE DE COMPRA DEL PRODUCTO*/
+
+
+/*-----------------------------------------------------CSS DE LA TABLA*/
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+/*Espacio de rellenos en las celdas de cada columba*/
+td, th{
+	padding: 10px 40px;
+}
+
+/*Estilos de la Cabecera*/
+th{
+	background: rgba(48,48,47,0.8);
+	text-align: center;
+	font-family: rockwell;
+	color: #fff;
+}
+
+/*Estilos en las celdas de las columnas*/
+td{
+	text-align: center;
+	font-size: 16px;
+}
+
+.factura{
+	margin-top: 80px;
+}
+/*-------------------------------------------------------FIN CSS DE LA TABLA*/

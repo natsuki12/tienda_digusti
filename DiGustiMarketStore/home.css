@@ -1,0 +1,117 @@
+.sombriado{
+	font-size: 30px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 270px;
+	height: 70px;
+}
+
+.sombriado p{
+	padding: 15px;
+	font-family: greatvibes;
+	letter-spacing: 2px;
+}
+
+.sombriado2{
+	font-size: 22px;
+	font-family: lobster;
+	color: #fff;
+	background-color: rgba(0,0,0,0.5);
+	background-position: top;
+}
+
+.bloque1{
+	float: left;
+	width: 96.5%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 5px;
+	height: 50px;
+	box-shadow: rgba(0,0,0,0.3) 0px 0px 100px 10px;
+	background: url(Alimentos/pasto.jpg);
+	background-repeat: repeat-x;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.bloque2{
+	float: left;
+	width: 46.7%;
+	height: 370px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	box-shadow: rgba(0,0,0,0.3) 0px 0px 100px 2px;
+}
+
+#imagen2{
+	background: url(Alimentos/cerveza.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#imagen3{
+	background: url(Alimentos/frut.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#imagen5{
+	background: url(Alimentos/pasteleria.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#imagen6{
+	background: url(Alimentos/cortes.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#imagen8{
+	background: url(Alimentos/verduras.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#imagen9{
+	background: url(Alimentos/char.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.abajo{
+	clear: both;
+	background: url(Alimentos/pasto2.png);
+	height: 200px;	
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-left: 20px; padding-right: 20px;
+	padding-bottom: 70px; padding-top: 20px;
+	font-size: 20px;
+	font-family: greatvibes;
+	color: rgb(48,48,47);
+	font-weight: bold;
+}
+
+#franja{
+	border-top: 5px dashed rgba(48,127,17,0.5);
+	height: 5px;
+	width: 100%;
+}
+
+.ver{
+	width: 200px;
+	height: 40px;
+	background: rgb(48,127,17);
+	border-radius: 5px;
+	margin-left: 60%;
+	margin-top: -30px;
+	text-align: center;
+	font-size: 25px;
+	padding-top: 10px;
+}

@@ -1,0 +1,345 @@
+body{
+	margin: 10px;
+	box-shadow: black 0px 0px 80px 7px;
+}
+
+.esconder{
+	visibility: hidden;
+}
+/*USUARIO LOGGUEADO*/
+
+.logusuario{
+	z-index: 11;
+	position: absolute;
+	top: 12%;
+	right: 2.5%;
+	color: white;
+	font-size: 15px;
+	font-family: courgette;
+	background: rgba(48,48,47,0.9);
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 170px;
+}
+
+.o1{
+	width: 92%;
+	background: url("Alimentos/engranaje.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.o2{
+	width: 92%;
+	background: url("Alimentos/carrito.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.o3{
+	width: 92%;
+	background: url("Alimentos/ucom.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.o4{
+	width: 92%;
+	background: url("Alimentos/off.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.opcusuario{
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+#usuario{
+	text-align: center;
+	position: absolute;
+	font-family: courgette;
+	right: 5%;
+	top: 20px;
+	overflow: none;
+}
+
+#usuario p{
+	display: inline;
+	letter-spacing: 2px;
+	color: white;
+	font-weight: bolder;
+	padding: 5px;
+	margin: 5px;
+	font-size: 15px;
+	text-decoration: none;
+	border: 1px solid black;
+	background-color: rgba(48,48,47,0.6);
+	border-radius: 10px;
+}
+
+#usuario img{
+	width: 30px; height: 30px;
+	cursor: pointer;
+	background: rgba(255,255,255,0.8);
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 2px;
+}
+/*FIN USUARIO LOGGUEADO*/
+
+/*BOTONES PARTE SUPERIOR*/
+#BarraI p{				/*los P de arriba Inicio,registro,invitado*/
+	display: inline;
+	letter-spacing: 3px;
+	color: white;
+	font-weight: bolder;
+	font-family: lobster;
+	padding: 5px;
+	margin: 5px;
+	font-size: 15px;
+	text-decoration: none;
+	background-color: rgba(48,48,47,0.6);
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#BarraI{	/*Div que contiene los P en la parte superior*/
+	text-align: center;
+	position: absolute;
+	right: 35%;
+	top: 20px;
+	overflow: none;
+}
+/*BOTONES PARTE SUPERIOR*/
+
+/*SECCION DEL DESPLIEGUE DLE LOGIN*/
+#login{	/*Pliegue del login*/
+	width: 300px;
+	height: 230px;
+	position: fixed;
+	text-align: center;
+	background-color: white;
+	right: 38%;
+	top: 25px;
+	box-shadow: grey 5px 5px 5px;
+	z-index: 50;
+	border-radius: 10px;
+	border-top: 10px solid #BF1A15;
+}
+
+.log{
+	width: 200px;
+	height: 40px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	margin-top: 25px;
+	text-align: center;
+	background: white;
+	font-family: lobster;
+}
+
+.log .boton{
+	margin-top: 20px; 
+}
+
+/*FIN DE LA SECCION DEL DESPLIEGUE DEL LOGIN*/
+
+/*PARTE SUPERIOR DE LA PAGINA*/
+#imagenP{	/*Div principal que conlleva la barra de busqueda*/
+	background: url("Alimentos/Pasillo.jpg");
+	background-attachment: contain;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	height: 200px; 
+}
+
+.formulario{	/*formulario del buscador*/
+	text-align: right;
+	margin-right: 70px;
+	float: right;
+	background-color: rgba(48,48,47,0.7);				/*PONERLE COLOR OPACO AL FONDO DEL BUSCADOR OPACO CAMBIAR!!!!*/
+	border-radius: 5px;
+	margin-top: 90px;
+}
+
+.formulario .busqueda{	/*text y button*/
+	margin: 8px;
+	margin-right: 0px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-family: courgette;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.texto{
+	width: 500px	
+}
+
+.boton{	/*botones*/
+	width: 130px;
+	background: rgba(48,48,47,0.9);
+	color: #fff;
+	cursor: pointer;
+	box-shadow: rgba(0,0,0,0.3) 0px 0px 5px 2px;
+	margin-right: 3px;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: courgette;
+}
+
+#navegacion img{
+	width: 30%; height: 150px;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#barra{
+	z-index: 10;
+	float: right;
+	text-align: center;
+	width: 100%;
+	box-shadow: grey 0px 0px 100px 10px;
+	background-color: rgba(26,217,42,0.95);
+	margin-top: -15px;
+	position: sticky;
+	top: 0;
+}
+
+#barra ul{
+	font-size: 20px;
+	color: white;
+	padding: auto;
+	word-spacing: 70px;
+	font-weight: bold;
+}
+
+.opcion{
+	display: inline;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+/*FIN DE LA ZONA SUPERIOR DE LA PAGINA*/
+
+/*CONTENIDO CENTRAL DE LA PAGINA*/
+#contenido{
+	text-align: center;
+}
+/*FIN CONTENIDO CENTRAL DE LA PAGINA*/
+
+/*ZONA INFERIOR DE LA PAGINA*/
+.slogan{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	font-size: 25px;
+	font-family: courgette;
+	word-spacing: 5px;
+	background-color: rgba(26,217,42,0.9);
+	color: #fff;
+}
+
+#informacion{
+	clear: both;
+	text-align: center;
+	font-size: 30px;
+	/*background-color: rgba(26,217,42,0.9);*/
+	color: #fff;
+	/*padding-top: 5px;*/
+}
+
+.bloque{
+	text-align: center;
+	background-color: rgba(6,28,1,0.7);
+	float: left;
+	width: 33.3%;
+	height: 200px;
+}
+
+.jur{
+	padding: 20px;
+	font-size: 16px;
+	text-align: center;
+	font-family: lobster;
+}
+
+.cambio{
+	font-size: 23px;
+	font-weight: bold;
+	color: rgba(26,217,42,0.8);
+}
+
+.f1{
+	text-align: center; 
+	width: 80%;
+	height: 30px;
+	background: url("Alimentos/facebook.png");
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	font-size: 18px;
+}
+
+.f2{
+	text-align: center;
+	width: 80%; 
+	height: 30px;
+	background: url("Alimentos/instagram.png");
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	font-size: 18px;
+}
+
+.f3{
+	text-align: center;
+	width: 80%;
+	height: 30px;
+	background: url("Alimentos/twitter.png");
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	font-size: 18px;
+}
+
+.f4{
+	text-align: center;
+	width: 80%;
+	height: 30px;
+	background: url("Alimentos/youtube.png");
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	font-size: 18px;
+}
+
+.manual{
+	text-align: justify;
+	font-size:1em; 
+	float: left;
+	background: url("Alimentos/pdf.png");
+	width: 100%;
+	height: 25px;
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+footer{
+	text-align: center;
+	background-color: black;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-family: greatvibes;
+	letter-spacing: 2px;
+}
+/*FIN ZONA INFERIOR DE LA PAGINA*/
